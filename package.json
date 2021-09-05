@@ -1,0 +1,27 @@
+{
+  "name": "indiacapital-backend",
+  "version": "1.0.0",
+  "description": "indiacapital-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adityak4201/indiacapital-backend.git"
+  },
+  "author": "Deepak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adityak4201/indiacapital-backend/issues"
+  },
+  "homepage": "https://github.com/Adityak4201/indiacapital-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  }
+}
